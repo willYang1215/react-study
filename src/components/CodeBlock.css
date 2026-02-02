@@ -1,0 +1,39 @@
+.code-block {
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e1e4e8;
+}
+
+.code-title {
+  background: #f6f8fa;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #24292e;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.code-description {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #586069;
+  background: #fff;
+  margin: 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 16px;
+  overflow-x: auto;
+  background: #282c34;
+  color: #abb2bf;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+}
+
+.code-block code {
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+}

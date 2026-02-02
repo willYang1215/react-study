@@ -1,0 +1,64 @@
+.component-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.component-item {
+  background: #f6f8fa;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid #0366d6;
+}
+
+.component-item h4 {
+  margin: 0 0 8px;
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  color: #d73a49;
+  font-size: 15px;
+}
+
+.component-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #586069;
+}
+
+.flow-diagram {
+  text-align: center;
+  padding: 20px;
+  background: #f6f8fa;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.flow-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.step-number {
+  background: #0366d6;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.step-text {
+  font-size: 14px;
+}
+
+.flow-arrow {
+  font-size: 24px;
+  color: #586069;
+}

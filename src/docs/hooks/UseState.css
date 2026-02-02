@@ -1,0 +1,48 @@
+.key-concept {
+  background: #e8f4fd;
+  border: 1px solid #79b8ff;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.flow-diagram {
+  text-align: center;
+  padding: 20px;
+  background: #f6f8fa;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.flow-step {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 12px;
+  text-align: left;
+}
+
+.step-number {
+  background: #0366d6;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.step-text {
+  font-size: 14px;
+}
+
+.flow-arrow {
+  font-size: 24px;
+  color: #586069;
+  text-align: center;
+}

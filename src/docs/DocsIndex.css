@@ -1,0 +1,159 @@
+.docs-index {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.docs-hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.docs-hero h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.docs-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.module-card {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: #0366d6;
+}
+
+.module-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.module-card h2 {
+  font-size: 20px;
+  margin: 0 0 12px;
+  color: #24292e;
+}
+
+.module-card p {
+  color: #586069;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.module-topics {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.module-topics li {
+  font-size: 13px;
+  color: #586069;
+  padding: 4px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.module-topics li::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: #0366d6;
+}
+
+.module-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0366d6;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.module-link:hover {
+  background: #0256b9;
+}
+
+.docs-footer {
+  background: #f6f8fa;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.docs-footer h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #24292e;
+}
+
+.tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.tip {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.tip-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.tip h4 {
+  margin: 0 0 8px;
+  color: #24292e;
+  font-size: 16px;
+}
+
+.tip p {
+  margin: 0;
+  color: #586069;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .docs-hero h1 {
+    font-size: 28px;
+  }
+  
+  .docs-hero p {
+    font-size: 16px;
+  }
+  
+  .modules-grid {
+    grid-template-columns: 1fr;
+  }
+}
